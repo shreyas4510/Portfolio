@@ -5,7 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TbBrandGithubFilled } from "react-icons/tb";
-import { details } from "../utils/constants";
+import { details, links } from "../utils/constants";
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 import Loader from "./loader";
@@ -69,15 +69,27 @@ export default forwardRef<HTMLDivElement, TProps>(({
                         </span>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <a className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300">
+                        <a
+                            className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300"
+                            href={links.twitter}
+                            target="_blank"
+                        >
                             <FaXTwitter size={25} color={iconColor} />
                             <div className="tooltip-text text-yellow-400 font-semibold">{'Twitter'}</div>
                         </a>
-                        <a className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300">
+                        <a
+                            className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300"
+                            href={links.linkedln}
+                            target="_blank"
+                        >
                             <FaLinkedinIn size={25} color={iconColor} />
                             <div className="tooltip-text text-yellow-400 font-semibold">{'Linkedln'}</div>
                         </a>
-                        <a className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300">
+                        <a
+                            className="tooltip h-12 w-12 mx-2 flex items-center justify-center hover:bg-black text-black hover:text-yellow-400 rounded-full transition-all duration-300"
+                            href={links.github}
+                            target="_blank"
+                        >
                             <TbBrandGithubFilled size={25} color={iconColor} />
                             <div className="tooltip-text text-yellow-400 font-semibold">{'Github'}</div>
                         </a>

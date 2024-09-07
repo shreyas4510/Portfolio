@@ -4,7 +4,6 @@ import Navbar from './components/navbar';
 import HomeComponent from "./components/home";
 import SkillsComponent from "./components/skills";
 import ProjectComponent from "./components/project";
-import ResumeComponent from "./components/resume";
 import ContactMeComponent from "./components/contact";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -34,7 +33,7 @@ function App() {
           <HomeComponent theme={theme} ref={addToRefs} />
           <SkillsComponent theme={theme} ref={addToRefs} />
           <ProjectComponent theme={theme} ref={addToRefs} />
-          <ResumeComponent ref={addToRefs} />
+          {/* <ResumeComponent ref={addToRefs} /> */}
           <ContactMeComponent theme={theme} ref={addToRefs} />
         </main>
       </div>

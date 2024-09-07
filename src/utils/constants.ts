@@ -13,13 +13,15 @@ export const navbarTabs = [
     { title: "Home", icon: GoHomeFill },
     { title: "Skills", icon: RiUserStarFill },
     { title: "Projects", icon: FaFolderOpen },
-    { title: "Resume", icon: IoDocumentTextSharp },
     { title: "Contact me!", icon: MdMarkEmailRead }
 ]
 
 export const homeName = `I'M SHREYAS DESHMUKH`;
 export const homePosition = `SOFTWARE DEVELOPER`;
-export const summary = `Experienced Senior Software Engineer with 4+ years in JavaScript, TypeScript, Node.js, and React.js. Expert in scalable backend services, GraphQL, Express.js, and Serverless. Proven leader in healthcare, mobile management, and wellbeing domains, skilled in databases, cloud services, and DevOps.`
+export const summary = `Senior Software Engineer with 4+ years of experience driving transformative software solutions across various
+domains. Proven track record of delivering high-impact, maintainable code through clear, concise programming
+and innovative problem-solving. Adept at leading development teams to build and scale integrated full-stack
+applications, leveraging expertise in JavaScript, TypeScript, Node.js, and React.js.`
 
 export const skills = [
     { label: 'Framework & Languages', icon: frameworkAndLanguages },
@@ -52,8 +54,14 @@ export const projects = [
     }
 ]
 
-export const resumeLink = 'https://drive.google.com/file/d/1SQUWHgCr9Hhi-Dayu0Ya_nD174YBqtO5/preview';
+export const resumeLink = 'https://drive.google.com/uc?export=download&id=1ASwS8sZ2H900e2z8upwXxMre0HtVuj1P';
 export const details = {
     phoneNumber: '+91-9370806369',
     email: 'shreyasdeshmukh06@gmail.com'
+}
+
+export const links = {
+    linkedln: 'https://www.linkedin.com/in/deshmukh-shreyas/',
+    twitter: 'https://x.com/Shreyas4510',
+    github: 'https://github.com/shreyas4510'
 }
