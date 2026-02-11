@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  X, CheckCircle2, Server, Layout, Database,
-  Zap, ShieldCheck, Users, Github, Linkedin, Twitter,
-  Mail, ExternalLink, ArrowUpRight, Code2, Cpu, Globe,
-  Layers,
-  Cloud,
-  Phone,
-  MessageCircle
+  Server, Database, ShieldCheck, Users, Github, Linkedin, Twitter, Mail, Code2, Layers, Cloud, MessageCircle
 } from 'lucide-react';
 import RasopsLogo from "./assets/images/rasops.png";
 import RasopsAnalytics from "./assets/images/rasops-analytics.png";
@@ -16,7 +10,6 @@ import RasopsActiveOrders from "./assets/images/rasops-active-orders.png";
 import RasopsCustomerView from "./assets/images/rasops-customer-view.jpg";
 import RasopsMobActiveOrders from "./assets/images/rasops-mob-active-app.jpg";
 import RasopsMobOrderHistory from "./assets/images/rasops-order-history.jpg";
-import { link } from 'fs';
 
 interface Project {
   id: number;
