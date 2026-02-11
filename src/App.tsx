@@ -99,9 +99,9 @@ const ShreyasPortfolio: React.FC = () => {
       <div className="flex flex-wrap gap-4">
         <a href="#work" className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl transition-all shadow-lg shadow-blue-500/25">View Work</a>
         <div className="flex gap-4 items-center px-4">
-          <a href={links.github} target='_blank' className="p-2 hover:text-white transition"><Github /></a>
-          <a href={links.linkedin} target='_blank' className="p-2 hover:text-white transition"><Linkedin /></a>
-          <a href={links.twitter} target='_blank' className="p-2 hover:text-white transition"><Twitter /></a>
+          <a href={links.github} target='_blank' className="p-2 hover:text-white transition" rel="noreferrer"><Github /></a>
+          <a href={links.linkedin} target='_blank' className="p-2 hover:text-white transition" rel="noreferrer"><Linkedin /></a>
+          <a href={links.twitter} target='_blank' className="p-2 hover:text-white transition" rel="noreferrer"><Twitter /></a>
         </div>
       </div>
     </header>
